@@ -1,0 +1,79 @@
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\GAVETA DA SORTE WPF.exe
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\GAVETA DA SORTE WPF.deps.json
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\GAVETA DA SORTE WPF.runtimeconfig.json
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\GAVETA DA SORTE WPF.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\GAVETA DA SORTE WPF.pdb
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA DA SORTE WPF_MarkupCompile.cache
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA DA SORTE WPF.g.resources
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA DA SORTE WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA DA SORTE WPF.AssemblyInfoInputs.cache
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA DA SORTE WPF.AssemblyInfo.cs
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA DA SORTE WPF.csproj.CoreCompileInputs.cache
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA DA SORTE WPF.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\refint\GAVETA DA SORTE WPF.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA DA SORTE WPF.pdb
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA DA SORTE WPF.genruntimeconfig.cache
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\ref\GAVETA DA SORTE WPF.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Azure.Core.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Azure.Identity.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\System.ClientModel.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\System.Memory.Data.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA DA SORTE WPF.csproj.AssemblyReference.cache
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA D.7C3BC251.Up2Date
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\Tela_de_Cadastro.g.cs
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\Tela_de_Cadastro.baml
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\EsqueceuSenha.baml
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\EsqueceuSenha.g.cs
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\TelaInicialxaml.g.cs
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA DA SORTE WPF_MarkupCompile.lref
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\TelaInicialxaml.baml
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\Tela_de_Inicio.g.cs
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\Tela_de_Inicio.baml
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\CriarGrupo.g.cs
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\CriarGrupo.baml

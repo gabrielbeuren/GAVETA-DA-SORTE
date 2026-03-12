@@ -1,0 +1,76 @@
+﻿<Window x:Class="GAVETA_DA_SORTE_WPF.Tela_de_Cadastro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cadastro" Height="450" Width="600"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="10">
+        <Border CornerRadius="25" Background="White">
+            <Border.Effect>
+                <DropShadowEffect Color="#2D2D2D" BlurRadius="20" ShadowDepth="0" Opacity="0.15"/>
+            </Border.Effect>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="220"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" CornerRadius="25,0,0,25">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#1D5D4A" Offset="0"/>
+                            <GradientStop Color="#2E3A46" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="GAVETA" Foreground="White" FontSize="28" FontWeight="ExtraBold" HorizontalAlignment="Center"/>
+                        <TextBlock Text="DA SORTE" Foreground="#9CE6D4" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,-5,0,0"/>
+                        <TextBlock Text="Sua sorte começa aqui." Foreground="White" FontSize="10" Opacity="0.7" Margin="0,20,0,0" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+
+                <Grid Grid.Column="1" Margin="30,20">
+                    <StackPanel VerticalAlignment="Center">
+                        <TextBlock Text="CRIAR CONTA" FontSize="20" FontWeight="ExtraBold" Foreground="#2E3A46" Margin="0,0,0,20"/>
+
+                        <TextBlock Text="Nome de Usuário" FontSize="11" FontWeight="Bold" Foreground="#7F8C8D" Margin="5,0,0,3"/>
+                        <Border Height="38" Background="#F2F2F2" CornerRadius="8" BorderThickness="1" BorderBrush="#E0E0E0" Margin="0,0,0,12">
+                            <TextBox x:Name="USUARIOCADASTRO" BorderThickness="0" Background="Transparent" VerticalContentAlignment="Center" Padding="12,0" FontSize="13" Foreground="#2E3A46"/>
+                        </Border>
+
+                        <TextBlock Text="Senha" FontSize="11" FontWeight="Bold" Foreground="#7F8C8D" Margin="5,0,0,3"/>
+                        <Border Height="38" Background="#F2F2F2" CornerRadius="8" BorderThickness="1" BorderBrush="#E0E0E0" Margin="0,0,0,12">
+                            <PasswordBox x:Name="SENHACADASTRO" BorderThickness="0" Background="Transparent" VerticalContentAlignment="Center" Padding="12,0" FontSize="13"/>
+                        </Border>
+
+                        <TextBlock Text="Confirmar Senha" FontSize="11" FontWeight="Bold" Foreground="#7F8C8D" Margin="5,0,0,3"/>
+                        <Border Height="38" Background="#F2F2F2" CornerRadius="8" BorderThickness="1" BorderBrush="#E0E0E0" Margin="0,0,0,25">
+                            <PasswordBox x:Name="confirmarSENHA" BorderThickness="0" Background="Transparent" VerticalContentAlignment="Center" Padding="12,0" FontSize="13"/>
+                        </Border>
+
+                        <Button x:Name="btnCADASTRAR" Content="CADASTRAR AGORA" Height="45" Foreground="White" FontWeight="Bold" Cursor="Hand" Click="btnCADASTRAR_Click">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border x:Name="btnBorder" CornerRadius="10" Background="#1D5D4A">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="btnBorder" Property="Background" Value="#2E3A46"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+
+                        <Button Content="Já tenho uma conta. Voltar." Background="Transparent" BorderThickness="0" Foreground="#1D5D4A" FontSize="11" Margin="0,15,0,0" Cursor="Hand" Click="BtnVoltar_Click"/>
+                    </StackPanel>
+                </Grid>
+
+                <Button Content="✕" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,15,0" Background="Transparent" BorderThickness="0" Foreground="Silver" FontSize="16" Click="BtnVoltar_Click" Cursor="Hand"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
