@@ -5,7 +5,7 @@
         WindowStyle="None" AllowsTransparency="True" Background="Transparent"
         WindowStartupLocation="CenterOwner">
 
-    <Border CornerRadius="20" Background="#2E3A46" BorderBrush="#9CE6D4" BorderThickness="2">
+    <Border CornerRadius="20" Background="Black" BorderBrush="#9CE6D4" BorderThickness="2">
         <Grid Margin="15">
             <Button Content="✕" HorizontalAlignment="Right" VerticalAlignment="Top" 
                     Background="Transparent" BorderThickness="0" Foreground="White" 
@@ -18,12 +18,11 @@
                     HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,55,0,0">
                 <TextBox x:Name="txtValorDeposito" Text="0,00" BorderThickness="0" Background="Transparent" 
                          VerticalContentAlignment="Center" HorizontalContentAlignment="Center" 
-                         FontSize="15" FontWeight="Bold" Foreground="#2E3A46" GotFocus="txt_GotFocus"/>
+                         FontSize="15" FontWeight="Bold" Foreground="#2E3A46"/>
             </Border>
 
-            <Button x:Name="btnConfirmarDeposito" Content="FINALIZAR DEPÓSITO" 
-                    Width="180" Height="40" VerticalAlignment="Bottom" Margin="0,0,0,10" Cursor="Hand" 
-                    Click="btnConfirmarDeposito_Click">
+            <Button x:Name="btnConfirmar" Content="CONFIRMAR" 
+                    Width="180" Height="40" VerticalAlignment="Bottom" Margin="0,0,0,10" Cursor="Hand" Background="#FF1D5B48" Click="btnConfirmar_Click">
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border x:Name="border" Background="#9CE6D4" CornerRadius="8">

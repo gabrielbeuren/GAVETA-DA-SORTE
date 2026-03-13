@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GAVETA DA SORTE WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+853a413a4bb4720a05ada85646a222838795e447")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c3da4db34722b68c4384a0b9995ca6448f987d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("GAVETA DA SORTE WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GAVETA DA SORTE WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

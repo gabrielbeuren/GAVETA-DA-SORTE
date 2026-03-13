@@ -47,7 +47,7 @@
                                 HorizontalAlignment="Right" Background="Transparent" BorderThickness="0"
                                 Foreground="#1D5D4A" FontSize="11" Cursor="Hand" Click="btnEsqueceuSenha_Click" Margin="0,0,5,25"/>
 
-                        <Button x:Name="btnLOGAR" Content="ACESSAR CONTA" Height="45" Foreground="White" FontWeight="Bold" Cursor="Hand" Click="btnLOGAR_Click">
+                        <Button x:Name="btnLOGAR" Content="ACESSAR CONTA" Height="45" Foreground="White" FontWeight="Bold" Cursor="Hand" Click="btnLOGAR_Click" Background="#FF1D5D4A">
                             <Button.Template>
                                 <ControlTemplate TargetType="Button">
                                     <Border x:Name="btnBorder" CornerRadius="12" Background="#1D5D4A">

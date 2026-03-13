@@ -81,6 +81,8 @@ namespace GAVETA_DA_SORTE_WPF
             }
         }
 
+       
+
         private void BtnFechar_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
@@ -96,7 +98,36 @@ namespace GAVETA_DA_SORTE_WPF
         private void btnDepositar_Click(object sender, RoutedEventArgs e)
         {
             TelaDeposito tela = new TelaDeposito();
-            tela .ShowDialog();
+            tela.Owner = this;
+            
+            if (tela.ShowDialog() == true)
+            {
+                CarregarSaldo();
+            }
+        }
+
+        private void CarregarSaldo()
+        {
+            Database db = new Database();
+
+            using (SqlConnection conn = db.GetConnection())
+            {
+                conn.Open();
+
+                string query = "SELECT saldo FROM usuarios WHERE id = @id";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@id", Sessao.UsuarioId);
+
+                object resultado = cmd.ExecuteScalar();
+
+                if (resultado != DBNull.Value)
+                {
+                    decimal saldo = Convert.ToDecimal(resultado);
+
+                    txtSaldo.Text = saldo.ToString("C");
+                }
+            }
         }
     }
 }

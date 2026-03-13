@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,50 @@ namespace GAVETA_DA_SORTE_WPF
         public TelaDeposito()
         {
             InitializeComponent();
+        }
+
+        public decimal ValorDepositado { get; private set; }
+
+        private void btnConfirmar_Click(object sender, RoutedEventArgs e)
+        {
+            if (!decimal.TryParse(txtValorDeposito.Text, out decimal valor))
+            {
+                MessageBox.Show("Digite um valor válido.");
+                return;
+            }
+
+            try
+            {
+                Database db = new Database();
+
+                using (SqlConnection conn = db.GetConnection())
+                {
+                    conn.Open();
+
+                    string query = "UPDATE usuarios SET saldo = saldo + @valor WHERE id = @id";
+
+                    SqlCommand cmd = new SqlCommand(query, conn);
+
+                    cmd.Parameters.AddWithValue("@valor", valor);
+                    cmd.Parameters.AddWithValue("@id", Sessao.UsuarioId);
+
+                    cmd.ExecuteNonQuery();
+
+                    MessageBox.Show("Depósito realizado com sucesso!");
+
+                    this.DialogResult = true;
+                    this.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void BtnFechar_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
