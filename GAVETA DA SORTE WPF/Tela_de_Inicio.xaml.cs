@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +13,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using Microsoft.Win32;
 
 
 namespace GAVETA_DA_SORTE_WPF
@@ -25,6 +26,7 @@ namespace GAVETA_DA_SORTE_WPF
         {
             InitializeComponent();
             txtOlaUsuario.Text = "Olá, " + Sessao.UsuarioNome;
+            CarregarGrupos();
         }
 
         private void btnTrocarFoto_Click(object sender, RoutedEventArgs e)
@@ -44,6 +46,57 @@ namespace GAVETA_DA_SORTE_WPF
             CriarGrupo tela = new CriarGrupo();
             tela.Owner = this;
             tela.ShowDialog();
+        }
+
+        private void listaGrupos_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (listaGrupos.SelectedItem != null)
+            {
+                Grupo tela = new Grupo();
+                tela.ShowDialog();
+            }
+        }
+
+        private void CarregarGrupos()
+        {
+            Database db = new Database();
+
+            using (SqlConnection conn = db.GetConnection())
+            {
+                conn.Open();
+
+                string query = "SELECT id, nome FROM grupos WHERE criador_id = @usuario";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@usuario", Sessao.UsuarioId);
+
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                listaGrupos.Items.Clear();
+
+                while (reader.Read())
+                {
+                    listaGrupos.Items.Add(reader["nome"].ToString());
+                }
+            }
+        }
+
+        private void BtnFechar_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnSair_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow tela = new MainWindow();
+            tela .ShowDialog();
+            this.Close();
+        }
+
+        private void btnDepositar_Click(object sender, RoutedEventArgs e)
+        {
+            TelaDeposito tela = new TelaDeposito();
+            tela .ShowDialog();
         }
     }
 }

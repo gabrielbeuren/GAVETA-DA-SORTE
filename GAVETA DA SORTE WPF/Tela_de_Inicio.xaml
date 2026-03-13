@@ -1,37 +1,122 @@
 ﻿<Window x:Class="GAVETA_DA_SORTE_WPF.Tela_de_Inicio"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:GAVETA_DA_SORTE_WPF"
-        mc:Ignorable="d"
-        Title="Tela_de_Inicio" Height="450" Width="600">
+        Title="Gaveta da Sorte - Início" Height="450" Width="600"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        WindowStartupLocation="CenterScreen">
 
-    <Grid>
-        <TextBlock x:Name="txtOlaUsuario"
-           FontSize="20"
-           Margin="120,-16,0,56"
-           HorizontalAlignment="Left"/>
+    <Grid Margin="10">
+        <Border CornerRadius="25" Background="#F8F9FA">
+            <Border.Effect>
+                <DropShadowEffect Color="#2D2D2D" BlurRadius="20" ShadowDepth="0" Opacity="0.15"/>
+            </Border.Effect>
 
-        <Image x:Name="imgPerfil"
-       Width="120"
-       Height="120"
-       Margin="25,26,0,288"
-       HorizontalAlignment="Left"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-        <Button x:Name="btnTrocarFoto"
-        Content="Trocar Foto"
-        Width="120"
-        Height="30"
-        Click="btnTrocarFoto_Click"
-        HorizontalAlignment="Left" Margin="24,166,0,238"/>
+                <Border Grid.Column="0" CornerRadius="25,0,0,25">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#1D5D4A" Offset="0"/>
+                            <GradientStop Color="#2E3A46" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
 
-        <Button x:Name="btnCriarGrupo"
-        Content="Criar Grupo"
-        Width="150"
-        Height="40"
-        Click="btnCriarGrupo_Click" Margin="10,231,440,163"/>
-        <ListBox x:Name="ListaGrupos" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="24,294,447,29"/>
+                    <Canvas>
+                        <Grid Width="100" Height="100" Canvas.Left="50" Canvas.Top="40">
+                            <Ellipse Fill="#9CE6D4" Stroke="White" StrokeThickness="2"/>
+                            <Image x:Name="imgPerfil" Stretch="UniformToFill">
+                                <Image.Clip>
+                                    <EllipseGeometry Center="50,50" RadiusX="50" RadiusY="50"/>
+                                </Image.Clip>
+                            </Image>
+                        </Grid>
+
+                        <TextBlock x:Name="txtOlaUsuario" Text="Olá, Usuário!" Foreground="White" 
+                                   FontSize="14" FontWeight="Bold" Width="180"
+                                   TextAlignment="Center" Canvas.Left="10" Canvas.Top="145"/>
+
+                        <Button x:Name="btnTrocarFoto" Content="Trocar Foto" Foreground="#9CE6D4" 
+                                Background="Transparent" BorderThickness="0" Cursor="Hand" 
+                                FontSize="10" Width="100" Canvas.Left="50" Canvas.Top="165" Click="btnTrocarFoto_Click"/>
+
+                        <Border Background="#162E27" CornerRadius="10" Width="160" Height="50" Canvas.Left="20" Canvas.Top="205">
+                            <Grid>
+                                <TextBlock Text="MEU SALDO" FontSize="9" Foreground="#9CE6D4" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,8,0,0" VerticalAlignment="Top"/>
+                                <TextBlock x:Name="txtSaldo" Text="R$ 0,00" FontSize="18" Foreground="White" FontWeight="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,5"/>
+                            </Grid>
+                        </Border>
+
+                        <Button x:Name="btnCriarGrupo" Content="+ CRIAR GRUPO" Height="40" Width="160"
+                                FontWeight="Bold" Background="#9CE6D4" Foreground="#1D5D4A"
+                                Canvas.Left="20" Canvas.Top="313" Click="btnCriarGrupo_Click" Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Top">
+                            <Button.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="12"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                        <Button x:Name="btnSair" Content="SAIR " Height="40" Width="160"
+                            FontWeight="Bold" Background="#9CE6D4" Foreground="#1D5D4A"
+                            Canvas.Left="20" Canvas.Top="363" Cursor="Hand" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnSair_Click">
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Border}">
+                                    <Setter Property="CornerRadius" Value="12"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                    </Canvas>
+                </Border>
+
+                <Canvas Grid.Column="1">
+                    <TextBlock Text="MEUS GRUPOS" FontSize="20" FontWeight="Black" Foreground="#2E3A46" 
+                               Canvas.Left="25" Canvas.Top="25"/>
+
+                    <Button Content="✕" Background="Transparent" BorderThickness="0" Foreground="Silver" 
+                            FontSize="18" Canvas.Right="25" Canvas.Top="20" Click="BtnFechar_Click" Cursor="Hand"/>
+
+                    <TextBlock Text="Clique duplo para entrar" FontSize="10" Foreground="#A0A0A0" 
+                               Canvas.Left="27" Canvas.Top="50"/>
+
+                    <ListBox x:Name="listaGrupos" Height="300" Width="330"
+                             Background="#FFEEEEEE" BorderThickness="1,1,1,1"
+                             Canvas.Left="25" Canvas.Top="75"
+                             MouseDoubleClick="listaGrupos_MouseDoubleClick" BorderBrush="#FFB7B7B7"/>
+                </Canvas>
+            </Grid>
+        </Border>
+        <Button x:Name="btnDepositar" 
+        Content="Depositar saldo na conta" 
+        Canvas.Left="20" 
+        Canvas.Top="258" 
+        Width="160" 
+        Cursor="Hand" 
+        Click="btnDepositar_Click" Margin="20,260,400,146">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <TextBlock x:Name="txtContent" 
+                       Text="{TemplateBinding Content}" 
+                       Foreground="#9CE6D4" 
+                       FontSize="10" 
+                       TextAlignment="Center"
+                       Background="Transparent">
+                        <TextBlock.Style>
+                            <Style TargetType="TextBlock">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="TextDecorations" Value="Underline"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBlock.Style>
+                    </TextBlock>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
     </Grid>
-
+    
 </Window>

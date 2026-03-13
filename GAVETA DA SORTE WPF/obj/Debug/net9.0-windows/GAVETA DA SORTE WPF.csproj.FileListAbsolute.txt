@@ -77,3 +77,8 @@ C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORT
 C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\Tela_de_Inicio.baml
 C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\CriarGrupo.g.cs
 C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\CriarGrupo.baml
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\GAVETA DA SORTE WPF.sourcelink.json
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\Grupo.g.cs
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\Grupo.baml
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\TelaDeposito.g.cs
+C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\obj\Debug\net9.0-windows\TelaDeposito.baml

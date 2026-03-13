@@ -8,6 +8,12 @@
     <Compile Update="EsqueceuSenha.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Grupo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TelaDeposito.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="TelaInicialxaml.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

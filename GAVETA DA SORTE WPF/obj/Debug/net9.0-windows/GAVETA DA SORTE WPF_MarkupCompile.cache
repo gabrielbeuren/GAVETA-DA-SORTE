@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\perei\Desktop\VISUAL STUDIO PROJETOS\GAVETA DA SORTE WPF\GAVETA DA SORTE WPF\App.xaml
-6-1560056971
+8-2052661705
 
-11787582917
+13628261024
 218-1838359968
-CriarGrupo.xaml;EsqueceuSenha.xaml;MainWindow.xaml;TelaInicialxaml.xaml;Tela_de_Cadastro.xaml;Tela_de_Inicio.xaml;
+CriarGrupo.xaml;EsqueceuSenha.xaml;Grupo.xaml;MainWindow.xaml;TelaDeposito.xaml;TelaInicialxaml.xaml;Tela_de_Cadastro.xaml;Tela_de_Inicio.xaml;
 
 False
 

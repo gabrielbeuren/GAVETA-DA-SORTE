@@ -69,7 +69,7 @@ namespace GAVETA_DA_SORTE_WPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GAVETA DA SORTE WPF;V1.0.0.0;component/criargrupo.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GAVETA DA SORTE WPF;component/criargrupo.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CriarGrupo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
