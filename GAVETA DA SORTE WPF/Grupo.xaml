@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="Grupo" Height="450" Width="600">
     <Grid>
-        
+        <ListBox x:Name="listaParticipantes" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="57,137,427,137"/>
+        <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Margin="151,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnAdicionar" Content="Adicionar usuario" HorizontalAlignment="Left" Margin="167,369,0,0" VerticalAlignment="Top" Click="btnAdicionar_Click"/>
+        <Label Content="Adicionar participanyte" HorizontalAlignment="Left" Margin="151,38,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnRemoverUsuario" Content="Remover usuario" HorizontalAlignment="Left" Margin="331,369,0,0" VerticalAlignment="Top" Click="btnRemoverUsuario_Click"/>
+        <TextBlock x:Name="txtNomeGrupo" HorizontalAlignment="Left" Margin="377,51,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

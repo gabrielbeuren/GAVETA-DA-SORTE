@@ -10,48 +10,29 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="512258-PIGA6U-589.jpg" />
-    <None Remove="ChatGPT Image 10 de mar. de 2026, 21_01_49.png" />
-    <None Remove="ChatGPT Image 10 de mar. de 2026, 21_16_59.png" />
     <None Remove="ChatGPT Image 11 de mar. de 2026, 01_54_35.png" />
-    <None Remove="ChatGPT Image 6 de mar. de 2026, 20_00_53.png" />
-    <None Remove="depositphotos_326109632-stock-illustration-money-cash-seamless-background-dollar.jpg" />
-    <None Remove="Gemini_Generated_Image_9cpeel9cpeel9cpe.png" />
-    <None Remove="moedas_sem_fundo.png" />
-    <None Remove="v1008-22-b.jpg" />
+    <None Remove="ChatGPT Image 15 de mar. de 2026, 01_11_00.png" />
+    <None Remove="Images\ChatGPT Image 15 de mar. de 2026, 01_11_00.png" />
+    <None Remove="Images\images.png" />
+    <None Remove="Images\USER.png" />
+    <None Remove="USER.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="512258-PIGA6U-589.jpg" />
-    <Resource Include="ChatGPT Image 10 de mar. de 2026, 21_01_49.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="ChatGPT Image 10 de mar. de 2026, 21_16_59.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
     <Resource Include="ChatGPT Image 11 de mar. de 2026, 01_54_35.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="depositphotos_326109632-stock-illustration-money-cash-seamless-background-dollar.jpg">
+    <Resource Include="ChatGPT Image 15 de mar. de 2026, 01_11_00.png" />
+    <Resource Include="Images\ChatGPT Image 15 de mar. de 2026, 01_11_00.png" />
+    <Resource Include="Images\images.png" />
+    <Resource Include="Images\USER.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Gemini_Generated_Image_9cpeel9cpeel9cpe.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="moedas_sem_fundo.png" />
-    <Resource Include="v1008-22-b.jpg">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
+    <Resource Include="USER.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="ChatGPT Image 6 de mar. de 2026, 20_00_53.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
   </ItemGroup>
 
 </Project>

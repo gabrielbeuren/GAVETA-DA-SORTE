@@ -52,6 +52,7 @@ namespace GAVETA_DA_SORTE_WPF
 
                     MessageBox.Show("Grupo criado com sucesso!");
 
+                    this.DialogResult = true;  // ← ADICIONE ISSO
                     this.Close();
                 }
             }
@@ -59,6 +60,11 @@ namespace GAVETA_DA_SORTE_WPF
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void btnFechar_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

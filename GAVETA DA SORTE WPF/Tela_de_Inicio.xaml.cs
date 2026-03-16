@@ -13,7 +13,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
+using System.IO;
 
 namespace GAVETA_DA_SORTE_WPF
 {
@@ -27,17 +27,36 @@ namespace GAVETA_DA_SORTE_WPF
             InitializeComponent();
             txtOlaUsuario.Text = "Olá, " + Sessao.UsuarioNome;
             CarregarGrupos();
+            CarregarSaldo();
+            CarregarFoto();
         }
 
         private void btnTrocarFoto_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog dialog = new OpenFileDialog();
-
             dialog.Filter = "Imagens|*.png;*.jpg;*.jpeg";
 
             if (dialog.ShowDialog() == true)
             {
-                imgPerfil.Source = new BitmapImage(new Uri(dialog.FileName));
+                string caminho = dialog.FileName;
+
+                imgPerfil.Source = new BitmapImage(new Uri(caminho));
+
+                Database db = new Database();
+
+                using (SqlConnection conn = db.GetConnection())
+                {
+                    conn.Open();
+
+                    string query = "UPDATE usuarios SET foto = @foto WHERE id = @id";
+
+                    SqlCommand cmd = new SqlCommand(query, conn);
+
+                    cmd.Parameters.AddWithValue("@foto", caminho);
+                    cmd.Parameters.AddWithValue("@id", Sessao.UsuarioId);
+
+                    cmd.ExecuteNonQuery();
+                }
             }
         }
 
@@ -45,38 +64,48 @@ namespace GAVETA_DA_SORTE_WPF
         {
             CriarGrupo tela = new CriarGrupo();
             tela.Owner = this;
-            tela.ShowDialog();
+
+            if (tela.ShowDialog() == true)
+            {
+                CarregarGrupos();
+            }
         }
 
         private void listaGrupos_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             if (listaGrupos.SelectedItem != null)
             {
-                Grupo tela = new Grupo();
+                GrupoItem grupoSelecionado = (GrupoItem)listaGrupos.SelectedItem;
+                Grupo tela = new Grupo(grupoSelecionado.Id,grupoSelecionado.Nome);
                 tela.ShowDialog();
             }
         }
 
         private void CarregarGrupos()
         {
+            listaGrupos.Items.Clear();
+
             Database db = new Database();
 
             using (SqlConnection conn = db.GetConnection())
             {
                 conn.Open();
 
-                string query = "SELECT id, nome FROM grupos WHERE criador_id = @usuario";
+                string query = "SELECT id, nome FROM grupos WHERE criador_id = @id";
 
                 SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@usuario", Sessao.UsuarioId);
+                cmd.Parameters.AddWithValue("@id", Sessao.UsuarioId);
 
                 SqlDataReader reader = cmd.ExecuteReader();
 
-                listaGrupos.Items.Clear();
-
                 while (reader.Read())
                 {
-                    listaGrupos.Items.Add(reader["nome"].ToString());
+                    GrupoItem grupo = new GrupoItem();
+
+                    grupo.Id = Convert.ToInt32(reader["id"]);
+                    grupo.Nome = reader["nome"].ToString();
+
+                    listaGrupos.Items.Add(grupo);
                 }
             }
         }
@@ -126,6 +155,33 @@ namespace GAVETA_DA_SORTE_WPF
                     decimal saldo = Convert.ToDecimal(resultado);
 
                     txtSaldo.Text = saldo.ToString("C");
+                }
+            }
+        }
+
+        private void CarregarFoto()
+        {
+            Database db = new Database();
+
+            using (SqlConnection conn = db.GetConnection())
+            {
+                conn.Open();
+
+                string query = "SELECT foto FROM usuarios WHERE id = @id";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@id", Sessao.UsuarioId);
+
+                object resultado = cmd.ExecuteScalar();
+
+                if (resultado != DBNull.Value)
+                {
+                    string caminho = resultado.ToString();
+
+                    if (File.Exists(caminho))
+                    {
+                        imgPerfil.Source = new BitmapImage(new Uri(caminho));
+                    }
                 }
             }
         }
